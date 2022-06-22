@@ -2,7 +2,7 @@ const answers = [];
 const ans1 = prompt('Introduce un numero de ejercicio');
 const validAns = ['_nuevo'];
 for(let i = 1; i <= 8; i++) {
-	validAns.push(i);
+	validAns.push(i.toString());
 }
 answers.push(ans1);
 while(
